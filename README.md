@@ -2,43 +2,41 @@
 This project is a simple WhatsApp chatbot backend simulation built using Java and Spring Boot. It exposes a REST API endpoint that receives messages (simulating WhatsApp webhook requests) and responds with predefined replies.
 
 
-🎯 Features
+## 🎯 Features
+
+```
 
 ✅REST API endpoint /webhook
-
 ✅ Accepts JSON input (simulating WhatsApp messages)
-
 ✅ Returns predefined responses
-
 ✅ Logs all incoming messages
-
 ✅ Clean layered architecture (Controller, Service, DTO)
 
+```
 
 
-🛠️Tech Stack
-
+##🛠️Tech Stack
+```
  Java
- 
  Spring Boot
- 
  Lombok
- 
  Maven
- 
+ ```
 
 
-Project Structure
+## 📂 Project Structure
 
+```
 chatbot.demo
-│── controller
+├── controller
 │   └── WebController.java
-│── service
+├── service
 │   ├── MessageService.java
 │   └── MessageServiceImpl.java
-│── dto
-│   ├── Message.java
-│   └── MessageResponse.java
+└── dto
+    ├── Message.java
+    └── MessageResponse.java
+```
 
 
 Notes
