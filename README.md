@@ -3,6 +3,7 @@ This project is a simple WhatsApp chatbot backend simulation built using Java an
 
 
 🎯 Features
+
 ✅REST API endpoint /webhook
 ✅ Accepts JSON input (simulating WhatsApp messages)
 ✅ Returns predefined responses
@@ -11,6 +12,7 @@ This project is a simple WhatsApp chatbot backend simulation built using Java an
 
 
 🛠️Tech Stack
+
  Java
  Spring Boot
  Lombok
